@@ -10,7 +10,7 @@ checkBtn.addEventListener("click", async function () {
 
     const emailText = email.value
 
-    const response = await fetch("http://127.0.0.1:8000/predict", {
+    const response = await fetch("https://spam-classiffier.onrender.com/predict", {
         method: "POST",
 
         headers: {
